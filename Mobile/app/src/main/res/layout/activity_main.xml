@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFFFF"
+    >
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@drawable/lia"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"/>
+    />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tes"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="\n\tYouTube adalah sebuah situs web berbagi video yang dibuat oleh tiga mantan karyawan PayPal pada Februari 2005. Situs web ini memungkinkan pengguna mengunggah, menonton, dan berbagi video. Perusahaan ini berkantor pusat di San Bruno, California, dan memakai teknologi Adobe Flash Video dan HTML5 untuk menampilkan berbagai macam konten video buatan pengguna/kreator, termasuk klip film, klip TV, dan video musik. Selain itu, konten amatir seperti blog video, video orisinal pendek, dan video pendidikan juga ada dalam situs ini.
+Kebanyakan konten di YouTube diunggah oleh individu,meskipun perusahaan-perusahaan media seperti CBS, BBC, Vevo, Hulu, dan organisasi lain sudah mengunggah material mereka ke situs ini sebagai bagian dari program kemitraan YouTube. Pengguna tak terdaftar dapat menonton video,sementara pengguna terdaftar dapat mengunggah video dalam jumlah tak terbatas.Video-video yang dianggap berisi konten ofensif hanya bisa ditonton oleh pengguna terdaftar berusia 18 tahun atau lebih.Pada November 2006,YouTube,LLC dibeli oleh Google dengan nilai US$1,65 miliar dan resmi beroperasi sebagai anak perusahaan Google. Sekarang banyak sekali orang yang menggunakan Youtube untuk kepentingan pribadinya. Mulai untuk berbagi kegiatan tau biasa kita sebut Vlog, ada yang menggunakannya untuk berniaga seperti promosi, me-review sebuah barang bahkan fitur Youtube yang terbaru sangat digemari penggunanya yakni Live Streaming. Disana anda bisa menyiarkan kegiatan langsung anda dan dapat langsung berinteraksi dengan orang yang menontonnya.
+Tidak hanya untuk mereka yang suka mengunggah videonya di Youtube, kita sebagai penonton juga tentunya akan diuntungkan. Banyak orang mencari informasi audio visualnya di Youtube, seperti mencari hiburan, tutorial sesuatu atau lihat review sebuah barang sebelum membeli seperti handphone misalnya. Disini Galerinfo.com akan membahas detail tentang Youtube, apa saja manfaatnya, fitur-fiturnya serta kelebihan dan kekurangannya.\t"
+            android:textSize="19dp"
+            android:fontFamily="sans-serif"
+        android:layout_below="@+id/img"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+        />
+    </ScrollView>
+</LinearLayout>
